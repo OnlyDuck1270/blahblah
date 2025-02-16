@@ -46,21 +46,21 @@ nav ul li a {
 nav ul li a:hover {
     color: #fff;
 }
-.content{ /* this one is for both content of index and about*/
+.homepage,{
     position: absolute;
     left: 15%;
     top:37%;
 }
-.content h1 {
+.homepage h1 {
     font-size: 70px;
     color: #fff;
 }
-.content p {
+.homepage p {
     font-size: 20px;
     color: #fff;
     margin-top: 20px;
 }
-.animation,.content2, #add{ /*this one is the animation for both pages*/
+.animation,.about, #add{ /*this one is the animation for both pages*/
     opacity: 0;
     transform: translateY(30px);
     animation: moveup 1s linear forwards;
@@ -112,7 +112,7 @@ caption {
     margin-top: 200px;
     text-align: center;
 }
-.content2 {
+.about {
     display: flex;
     justify-content: space-between;
     align-items: center;
