@@ -12,7 +12,6 @@ html {
     scroll-behavior: smooth;
     background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(banner.jpg);
     background-size: cover;
-    
 }
 /* This one is for index page*/
 nav {
@@ -33,6 +32,7 @@ nav ul {
     border: 5px solid #fff;
     padding: 30px 50px;
     border-radius: 50px;
+    background-color: black;
 }
 nav ul li {
     display: inline-block;
@@ -46,7 +46,7 @@ nav ul li a {
 nav ul li a:hover {
     color: #fff;
 }
-.homepage,{
+.homepage{
     position: absolute;
     left: 15%;
     top:37%;
